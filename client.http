@@ -1,0 +1,19 @@
+###
+GET http://localhost:3001/google
+
+###
+GET http://localhost:3001/api/links
+
+###
+GET http://localhost:3001/api/metrics
+
+###
+POST http://localhost:3001/api/links 
+Content-Type: application/json
+
+{
+    "code": "cojuv",
+    "url": "http://lims.ifpi.edu.br/cojuv"
+}
+
+
